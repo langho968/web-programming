@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: -80px;
+  font-family: 'Helvetica Neue', sans-serif;
+  background-color: #fff;
+  color: #222;
+}
+
+.container {
+  display: flex;
+}
+
+.sidebar {
+  width: 600px;
+  background: #fff;
+  padding: 200px;
+  margin-left: 90px;
+  flex-direction: column;
+}
+
+.logo {
+  margin-bottom: 40px;
+  margin-top: -50px;
+  margin-left: -50px;
+}
+.menu{
+    margin-left: 30px;
+}
+.menu a {
+  text-decoration: none;
+  font-size: 20px;
+  color: #666;
+  display: block;
+  margin-bottom: 15px;
+ 
+}
+
+.menu h2 {
+  margin-top: 80px;
+  margin-bottom: 35px;
+  font-size: 30px;
+  color: #000;
+  font-weight: bold;
+}
+
+.menu ul {
+  list-style: none;
+}
+
+
+.main-content {
+  flex: 1;
+  padding: 90px;
+  margin-top: 100px;
+  margin-left: -200px;
+  background-color: #fff;
+}
+
+.main-content h1{
+    padding-left: 490px;
+    font-size: 50px;
+}
+
+
+.main-content h3{   
+    text-align: center;
+    width: max-content;
+    padding-right: 55px;
+    padding-left: 445px;
+    padding-top: 100px;
+    color: #666;
+    line-height: 250%;
+}
+
+.main-content input-info{
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-bottom: 6px;
+  font-weight: 600;
+}
+
+input, textarea {
+  padding: 12px;
+  border: 1px solid #ccc;
+  width: 500px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+  text-align: c;
+  color: #333;
+  background-color: #fafafa;
+}
+
+input::placeholder, textarea::placeholder {
+  color: #aaa;
+}
+
+button {
+  padding: 12px 20px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  font-size: 1rem;
+  cursor: pointer;
+  width: 100px;
+}
+
+button:hover {
+  background-color: #111;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 80px;
+}
+
+
+.project {
+  text-align: center;
+}
+
+.project img {
+  width: 350px;
+  height: 350px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.project h3 {
+  margin-top: 10px;
+  font-size: 30px;
+}
+
+.project a {
+    text-decoration: none;
+    color: #000;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #fff;
+  margin-top: 40px;
+}
+
+.back-to-top {
+  text-decoration: none;
+  color: #000;
+}
